@@ -33,5 +33,7 @@ You can also encrypt/decrypt from a file and then write to another file.
 The 'encrypt.txt' file used in previous command is:
 ![Encrypt txt file](https://user-images.githubusercontent.com/36816476/98441308-902f0400-2151-11eb-8aae-dd817937c85e.PNG)
 
+
 The 'decrypt.txt' file which it creates is:
 ![decrypt txt file](https://user-images.githubusercontent.com/36816476/98441323-a63cc480-2151-11eb-96a6-dfc1dcd82b3b.PNG)
+
