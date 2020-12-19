@@ -9,12 +9,19 @@ For encryption and decryption, we have two algorithm. One is to add a certain va
 and even if it exceeds alphabet characters, we use it. And the other algorithm is Ceaser (shift in this program) algorithm.
 <h5>It can also read from file and write to a file.</h5>
 
-<h4>Examples of command</h4>
-<h5>java EncryptDecrypt -key 5 -alg shift -data "Ijhwduynsl ymj jshwduyji rjxxflj" -mode dec</h5>
+## Examples of command
+
+```
+java EncryptDecrypt -key 5 -alg shift -data "Ijhwduynsl ymj jshwduyji rjxxflj" -mode dec
+```
+
 <h5>Explanation: </h5> Here the decryption key is 5, the algorithm used is shift (also called Ceaser) and the data is provided.
 We have used decryption mode.
 
-<h5>java EncryptDecrypt -mode enc -in file_to_read.txt -out file_to_output.txt -key 9 -alg unicode</h5>
+```
+java EncryptDecrypt -mode enc -in file_to_read.txt -out file_to_output.txt -key 9 -alg unicode
+```
+
 <h5>Explanation: </h5> Here the encryption key is 9, the algorithm used is unicode. We are reading from 'file_to_read.txt' and 
 then writing in 'file_to_output.txt' after the encryption is completed.
 
